@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	#example1, #example2, #example3 {
+		border: 10px double black;
+		padding: 25px;
+		background-image: url('quadrado.png');
+		background-repeat: no-repeat;
+		background-size: 110px;
+	}
+	#example1 { background-origin: padding-box; }
+	#example2 { background-origin: border-box; }
+	#example3 { background-origin: content-box; }
+</style>
+</head>
+<body>
+	<div id="example1">
+		<h2>background-origin: padding-box (Valor Padrão):</h2>
+	</div>
+	<div id="example2">
+		<h2>background-origin: border-box:</h2>
+	</div>
+	<div id="example3">
+		<h2>background-origin: content-box:</h2>
+	</div>
+</body>
+</html>
